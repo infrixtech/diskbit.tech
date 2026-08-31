@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream text-ink antialiased dark:bg-ink dark:text-cream-50;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+}
+
+@layer components {
+  /** Long reading text: even edges on desktop, last line stays left. */
+  .copy {
+    @apply text-pretty leading-[1.75] text-ink-muted dark:text-cream-200;
+  }
+  .copy-justify {
+    @apply copy hyphens-auto sm:text-justify;
+    text-align-last: left;
+  }
+}
+
+@layer utilities {
+  .animate-spin-slow {
+    animation: spin 1.2s linear infinite;
+  }
+}
