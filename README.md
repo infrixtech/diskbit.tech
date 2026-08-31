@@ -59,7 +59,7 @@ No database, no auth, no server-side processing. Deploys to any static host.
 Requires Node.js 20.9 or later.
 
 ```bash
-git clone https://github.com/infrixtech/diskbit.tech.git
+git clone https://github.com/infrixtech/diskbit.tech
 cd diskbit.tech
 npm install
 npm run dev
