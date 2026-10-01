@@ -310,6 +310,20 @@ const paths: Record<string, ReactElement> = {
       <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
     </>
   ),
+  keyboard: (
+    <>
+      <rect x="2" y="4" width="20" height="16" rx="2" />
+      <path d="M6 8h.01" />
+      <path d="M10 8h.01" />
+      <path d="M14 8h.01" />
+      <path d="M18 8h.01" />
+      <path d="M6 12h.01" />
+      <path d="M10 12h.01" />
+      <path d="M14 12h.01" />
+      <path d="M18 12h.01" />
+      <path d="M7 16h10" />
+    </>
+  ),
 };
 
 export type IconName = keyof typeof paths;

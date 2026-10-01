@@ -56,7 +56,7 @@ export const categories: Category[] = [
     name: "Everyday Tools",
     shortName: "Everyday",
     icon: "key",
-    description: "Make a QR code or a strong password in your browser. Nothing is stored.",
+    description: "Make a QR code, a strong password, or test your typing speed in your browser. Nothing is stored..",
   },
 ];
 
@@ -251,6 +251,22 @@ export const tools: Tool[] = [
     category: "utility-tools",
     icon: "key",
     keywords: ["password generator", "strong password", "random password", "secure password maker"],
+  },
+{
+    slug: "typing-speed-test",
+    name: "Typing Speed Test",
+    description:
+      "Check your WPM and accuracy with timed tests. Runs in your browser; nothing is stored.",
+    category: "utility-tools",
+    icon: "keyboard",
+    keywords: [
+      "typing speed test",
+      "wpm test",
+      "words per minute",
+      "typing test",
+      "keyboard speed",
+      "typing accuracy",
+    ],
   },
 ];
 

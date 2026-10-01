@@ -6,7 +6,7 @@ import { getCategoryBySlug } from "@/lib/tools";
 const category = getCategoryBySlug("utility-tools")!;
 
 export const metadata: Metadata = {
-  title: "Free Everyday Tools - QR Codes & Passwords",
+  title: "Free Everyday Tools - QR Codes, Passwords & Typing",
   description: category.description,
   alternates: { canonical: `${siteUrl}/utility-tools` },
 };

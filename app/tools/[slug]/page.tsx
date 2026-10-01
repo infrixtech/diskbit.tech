@@ -29,6 +29,7 @@ const componentBySlug: Record<string, ComponentType> = {
   "unit-converter": dynamic(() => import("@/components/tools/UnitConverter")),
   "qr-code-generator": dynamic(() => import("@/components/tools/QrCodeGenerator")),
   "password-generator": dynamic(() => import("@/components/tools/PasswordGenerator")),
+  "typing-speed-test": dynamic(() => import("@/components/tools/TypingSpeedTest")),
 };
 
 interface Props {

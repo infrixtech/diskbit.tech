@@ -450,6 +450,40 @@ export const toolContent: Record<string, ToolContent> = {
       },
     ],
   },
+  "typing-speed-test": {
+    tagline:
+      "Measure your words per minute and accuracy with timed passages that stay on your device.",
+    intro:
+      "Test how fast and accurately you type with short, medium, or long timed runs. Pick a difficulty from 1 (easy) to 5 (hard), start typing, and watch live WPM, raw speed, and accuracy update as you go. Characters light up green or red so you can see mistakes instantly. When the timer ends, you get a clear scorecard with errors, consistency tips, and a chance to try again with a fresh passage. Everything runs in your browser. Your keystrokes are never uploaded or saved.",
+    howTo: [
+      "Choose a time (15, 30, 60, or 120 seconds) and a difficulty from 1 (easy) to 5 (hard).",
+      "Click the typing area and start typing the passage shown.",
+      "Watch the live WPM and accuracy meters while you type.",
+      "When time runs out, review your score and try again if you want.",
+    ],
+    faqs: [
+      {
+        question: "How is WPM calculated?",
+        answer:
+          "Words per minute uses the standard formula: correct characters divided by five, then divided by minutes elapsed. That matches how most typing tests and typing courses score speed.",
+      },
+      {
+        question: "What is the difference between WPM and raw WPM?",
+        answer:
+          "WPM counts only correct characters. Raw WPM counts every character you typed, including mistakes, so you can see how much errors slow you down.",
+      },
+      {
+        question: "Is my typing stored or sent anywhere?",
+        answer:
+          "No. The passage and your keystrokes stay in your browser's memory for this session only. Reloading the page clears the test. Nothing is uploaded or written to a server.",
+      },
+      {
+        question: "What is a good typing speed?",
+        answer:
+          "Around 40 WPM is typical for everyday typing. 60–80 WPM is strong for most office work, and above 100 WPM is excellent. Accuracy above 95% usually matters more than a small speed bump.",
+      },
+    ],
+  },
   "unit-converter": {
     tagline:
       "Convert length, weight, temperature, and data sizes. Metric and imperial, all in one place.",
